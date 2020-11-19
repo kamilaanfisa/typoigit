@@ -22,8 +22,7 @@ namespace Новелла
         }
         private void Form2_Load(object sender, EventArgs e)
         {
-            this.Width = 1930;
-            this.Height = 1040;
+
         }
 
         private void pictureBox2_Click(object sender, EventArgs e)

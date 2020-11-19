@@ -29,61 +29,62 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Ysharagi));
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.panel1 = new System.Windows.Forms.Panel();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.textZone = new System.Windows.Forms.Label();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            this.panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
             // 
-            // pictureBox1
+            // pictureBox2
             // 
-            this.pictureBox1.Location = new System.Drawing.Point(513, 253);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(100, 50);
-            this.pictureBox1.TabIndex = 0;
-            this.pictureBox1.TabStop = false;
-            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
-            // 
-            // panel1
-            // 
-            this.panel1.Controls.Add(this.textZone);
-            this.panel1.Location = new System.Drawing.Point(188, 398);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(200, 100);
-            this.panel1.TabIndex = 1;
+            this.pictureBox2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.pictureBox2.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox2.BackgroundImage")));
+            this.pictureBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox2.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pictureBox2.Location = new System.Drawing.Point(1180, -2);
+            this.pictureBox2.Margin = new System.Windows.Forms.Padding(2);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(100, 100);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.pictureBox2.TabIndex = 4;
+            this.pictureBox2.TabStop = false;
+            this.pictureBox2.Click += new System.EventHandler(this.pictureBox2_Click);
             // 
             // textZone
             // 
+            this.textZone.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.textZone.AutoSize = true;
-            this.textZone.Location = new System.Drawing.Point(13, 24);
+            this.textZone.BackColor = System.Drawing.Color.Transparent;
+            this.textZone.Font = new System.Drawing.Font("Comic Sans MS", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.textZone.Location = new System.Drawing.Point(470, 595);
             this.textZone.Name = "textZone";
-            this.textZone.Size = new System.Drawing.Size(35, 13);
+            this.textZone.Size = new System.Drawing.Size(227, 40);
             this.textZone.TabIndex = 0;
-            this.textZone.Text = "label1";
+            this.textZone.Text = "На часах 8:59";
             // 
             // Ysharagi
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
-            this.ClientSize = new System.Drawing.Size(946, 547);
-            this.Controls.Add(this.panel1);
-            this.Controls.Add(this.pictureBox1);
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.ClientSize = new System.Drawing.Size(1278, 690);
+            this.Controls.Add(this.textZone);
+            this.Controls.Add(this.pictureBox2);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Ysharagi";
             this.Text = "Form3";
             this.Load += new System.EventHandler(this.Form3_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            this.panel1.ResumeLayout(false);
-            this.panel1.PerformLayout();
+            this.Click += new System.EventHandler(this.Ysharagi_Click);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
         #endregion
-
-        private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.Label textZone;
     }
 }

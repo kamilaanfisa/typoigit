@@ -8,6 +8,8 @@ namespace Новелла
 {
     public static class Shkala
     {
-        public static int a;
+        public static int zdorovie = 3;
+        public static int nastroenie = 3;
+        public static int otnoshenia = 3;
     }
 }

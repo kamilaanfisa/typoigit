@@ -15,6 +15,8 @@ namespace Новелла
         public Start()
         {
             InitializeComponent();
+            Width = Screen.PrimaryScreen.Bounds.Width;
+            Height = Screen.PrimaryScreen.Bounds.Height;
         }
         private void PictureBox1_Click(object sender, EventArgs e)
         {
@@ -23,8 +25,7 @@ namespace Новелла
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            this.Width = 1930;
-            this.Height = 1040;
+
         }
 
         private void pictureBox2_Click(object sender, EventArgs e)

@@ -46,7 +46,103 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Cabinet.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cabinet.Designer.cs">
+      <DependentUpon>Cabinet.cs</DependentUpon>
+    </Compile>
+    <Compile Include="END.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="END.Designer.cs">
+      <DependentUpon>END.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FilwordIgra.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FilwordIgra.Designer.cs">
+      <DependentUpon>FilwordIgra.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Gena.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Gena.Designer.cs">
+      <DependentUpon>Gena.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Paraprod.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Paraprod.Designer.cs">
+      <DependentUpon>Paraprod.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Sovesh.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Sovesh.Designer.cs">
+      <DependentUpon>Sovesh.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HourLater.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HourLater.Designer.cs">
+      <DependentUpon>HourLater.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Mokrushin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mokrushin.Designer.cs">
+      <DependentUpon>Mokrushin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Opros.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Opros.Designer.cs">
+      <DependentUpon>Opros.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Peremena.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Peremena.Designer.cs">
+      <DependentUpon>Peremena.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Peremena2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Peremena2.Designer.cs">
+      <DependentUpon>Peremena2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pogovorit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pogovorit.Designer.cs">
+      <DependentUpon>Pogovorit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pokur.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pokur.Designer.cs">
+      <DependentUpon>Pokur.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pokurvs.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pokurvs.Designer.cs">
+      <DependentUpon>Pokurvs.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Random.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Random.Designer.cs">
+      <DependentUpon>Random.cs</DependentUpon>
+    </Compile>
     <Compile Include="Shkala.cs" />
+    <Compile Include="SledUrok.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SledUrok.Designer.cs">
+      <DependentUpon>SledUrok.cs</DependentUpon>
+    </Compile>
     <Compile Include="Start.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -58,6 +154,60 @@
     </Compile>
     <Compile Include="Pravila.Designer.cs">
       <DependentUpon>Pravila.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ustaaal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ustaaal.Designer.cs">
+      <DependentUpon>Ustaaal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ViborGena.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ViborGena.Designer.cs">
+      <DependentUpon>ViborGena.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ViborIgra.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ViborIgra.Designer.cs">
+      <DependentUpon>ViborIgra.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ViborOpros.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ViborOpros.Designer.cs">
+      <DependentUpon>ViborOpros.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ViborPara.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ViborPara.Designer.cs">
+      <DependentUpon>ViborPara.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Viborpogovor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Viborpogovor.Designer.cs">
+      <DependentUpon>Viborpogovor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ViborPokushat.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ViborPokushat.Designer.cs">
+      <DependentUpon>ViborPokushat.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ViborPoslePari.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ViborPoslePari.Designer.cs">
+      <DependentUpon>ViborPoslePari.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VSharagy.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VSharagy.Designer.cs">
+      <DependentUpon>VSharagy.cs</DependentUpon>
     </Compile>
     <Compile Include="Ysharagi.cs">
       <SubType>Form</SubType>
@@ -73,11 +223,86 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Cabinet.resx">
+      <DependentUpon>Cabinet.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="END.resx">
+      <DependentUpon>END.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FilwordIgra.resx">
+      <DependentUpon>FilwordIgra.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Gena.resx">
+      <DependentUpon>Gena.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HourLater.resx">
+      <DependentUpon>HourLater.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mokrushin.resx">
+      <DependentUpon>Mokrushin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Opros.resx">
+      <DependentUpon>Opros.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Paraprod.resx">
+      <DependentUpon>Paraprod.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Peremena.resx">
+      <DependentUpon>Peremena.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Peremena2.resx">
+      <DependentUpon>Peremena2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pogovorit.resx">
+      <DependentUpon>Pogovorit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pokur.resx">
+      <DependentUpon>Pokur.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pokurvs.resx">
+      <DependentUpon>Pokurvs.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Random.resx">
+      <DependentUpon>Random.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SledUrok.resx">
+      <DependentUpon>SledUrok.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sovesh.resx">
+      <DependentUpon>Sovesh.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Start.resx">
       <DependentUpon>Start.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Pravila.resx">
       <DependentUpon>Pravila.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ustaaal.resx">
+      <DependentUpon>Ustaaal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViborGena.resx">
+      <DependentUpon>ViborGena.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViborIgra.resx">
+      <DependentUpon>ViborIgra.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViborOpros.resx">
+      <DependentUpon>ViborOpros.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViborPara.resx">
+      <DependentUpon>ViborPara.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Viborpogovor.resx">
+      <DependentUpon>Viborpogovor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViborPokushat.resx">
+      <DependentUpon>ViborPokushat.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViborPoslePari.resx">
+      <DependentUpon>ViborPoslePari.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VSharagy.resx">
+      <DependentUpon>VSharagy.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Ysharagi.resx">
       <DependentUpon>Ysharagi.cs</DependentUpon>
